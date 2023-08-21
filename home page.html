@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+   <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- navbar -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="#"><img src="./pics/1223.png" alt="images not found" width="50px"></a>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Admission form</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " aria-disabled="true">Contact us</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<!-- slider    -->
+<div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./pics/1.jpg" class="d-block w-100" alt="..." style="padding: 50px;">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 style="color: black;">First slide label</h5>
+        <p style="color: black;">Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="./pics/2.jpg" class="d-block w-100" alt="..." style="padding: 50px;">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 style="color: black;">First slide label</h5>
+        <p style="color: black;">Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="./pics/3.jpg" class="d-block w-100" alt="..." style="padding: 50px; height: 1070px;">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>First slide label</h5>
+        <p >Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- CARD -->
+
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-3">
+      <div class="card" style="width: 18rem; margin-left: 20px;">
+        <img src="./pics/political_science.jpg" height="287px" class="card-img-top" alt="...">
+        <div class="card-body"><hr>
+          <h5 class="card-title" style="text-align: center;">Political Science</h5>
+        </div>
+      </div>      
+    </div>
+
+    <div class="col-3">
+      <div class="card" style="width: 18rem;margin-left: 20px;">
+        <img src="./pics/islamiyat.jpg" class="card-img-top" alt="...">
+        <div class="card-body"><hr>
+          <h5 class="card-title" style="text-align: center;">Islamiyat</h5>
+        </div>
+      </div>      
+    </div>
+
+    <div class="col-3">
+      <div class="card" style="width: 18rem;margin-left: 20px;">
+        <img src="./pics/commerce.jpg" class="card-img-top" height="287px" alt="...">
+        <div class="card-body"><hr>
+          <h5 class="card-title" style="text-align: center;">Commerce</h5>
+        </div>
+      </div>      
+    </div>
+
+    <div class="col-3">
+      <div class="card" style="width: 18rem;margin-left: 20px;">
+        <img src="./pics/urdu.jpg" class="card-img-top" alt="...">
+        <div class="card-body"><hr>
+          <h5 class="card-title" style="text-align: center;">Urdu</h5>
+        </div>
+      </div>      
+    </div>
+    
+  </div>
+</div>
+
+<!-- Accordion -->
+
+<div class="accordion" id="accordionExample" style="padding: 40px; ">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        Accordion Item #1
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Accordion Item #2
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Accordion Item #3
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- footer  -->
+
+<div class="container-fluid" style="background-color:whitesmoke; color: black ; padding: 43px; margin-top: 30px;">
+  <div class="row">
+      <div class="col-1"><img style="margin-top: 7px;" src="./pics/1223.png" alt="images not found" width="90px" height="90px" ></div>
+      <div class="col-3"><h3 style="border-left: 5px solid brown; padding: 10px ; margin-top: 10px;">Government Muncipal Degree College</h3></div>
+      <div class="col-2"><h3 style="margin: 10px;">Many More </h3> <p style="border-left: 5px solid brown;padding: 10px; color: white;"><a href="#">Fee & Fine </a></p> <p style="border-left: 5px solid brown;padding: 10px;"><a href="#">Exam Scheduals</a></p> <p style="border-left: 5px solid brown;padding: 10px;"><a href="#">Parking</a></p> </div>
+      <div class="col-2"><h3 style="margin: 10px;">Quick Access</h3><p style="border-left: 5px solid brown;padding: 10px;"><a href="#">Time Table</a></p>  <p style="border-left: 5px solid brown;padding: 10px;"><a href="#">Merit Lists</a></p></div>
+      <div class="col-3"><h3 style="margin: 10px;">Social links</h3><p style="border-left : 5px solid brown; padding: 10px;"><a href="https://www.facebook.com/gmdc.cs"><img style="border-radius: 45%;" src="./pics/Facebook.jpg" alt="images not found" width="40px " ></a> <a href="https://www.youtube.com/"><img style="border-radius: 45%;" src="./pics/youtube.jpg" alt="images not found" width="40px"></a> <a href="https://twitter.com/"><img style="border-radius: 45%;" src="./pics/twitter.jpg" alt="images not found" width="37px"></a> <a href="https://www.instagram.com/"><img style="border-radius: 45%;" src="./pics/3Bg-2ZsT_400x400.png" alt="images not found" width="40px"></a></p> <p><img style="border-radius: 45%;" src="./pics/email.jpg" alt="images not found" width="15px">info@gmdc.gmail.edu.pk</p> <p><img style="border-radius: 45%;" src="./pics/call logo.jpg" alt="images not found" width="15px">(041)9220283</p><p style="border-left : 5px solid brown; padding: 10px;">Govt.Municipal Degree College Faisalabad Jaranwala Road, Faisalabad </p> </div>
+  </div>  
+</div>
+      <div style="background-color: black;color: whitesmoke; text-align: center;"> Copyright © 2022||All rights reserved.<a href="./home page.html"> gmdc.edu.pk</a></div>
+
+
+
+</body>
+<script src="./slider.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</html>
